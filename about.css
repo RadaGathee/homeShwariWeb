@@ -1,0 +1,74 @@
+.about-section {
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+    background-image: url(forest2.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0vw;
+  }
+.about-section h1{
+  font-family: "Shadows Into Light", cursive;;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+  .about-content{
+    padding: 50px;
+    text-align: left;
+    /*background-color: #462405;*/
+
+
+    
+    color: #000000;
+    background-position: center;
+    background-size: cover;
+
+
+    font-family: "Shadows Into Light", cursive;;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    
+    font-size: 1.3vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .about-content {
+      width: 100%;
+      padding-left: 5vw;
+      font-size: 5vw;
+    }
+  }
+
+
+  /* unvisited link */
+  .about-content a:link {
+    color: #bec1be;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .about-content a:visited {
+    color: #7bb37b;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  .about-content a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  .about-content a:active {
+    color: blue;
+  }

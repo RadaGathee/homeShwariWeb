@@ -1,0 +1,36 @@
+#myBtn {
+    position: sticky;
+    top: 70%;
+    left: 91vw;
+    z-index: 98; 
+    border: none; 
+    outline: none; 
+    background-color: red;
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 3px; 
+    font-size: 16px; 
+
+    font-family: "Shadows Into Light", cursive;;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    
+
+  }
+  
+  #myBtn:hover {
+    background-color: aquamarine; /* Add a dark-grey background on hover */
+    color: black;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    #myBtn {
+      font-size: 4vw;
+      padding: 10px;
+    }
+  }
+  

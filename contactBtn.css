@@ -1,0 +1,68 @@
+.fa {
+    padding: 12px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-whatsapp {
+    background: #0a3c01;
+    color: white;
+  }
+  .fa-whatsapp:hover{
+    background-image: linear-gradient(60deg, #010700 , #0a3603,#0f4306, #184510);
+  }
+
+  .fa-google{
+    background: #5b0202;
+    color: white;
+
+  }
+  .fa-google:hover{
+    background-image: linear-gradient(60deg, #220101 , #2b0202,#4c0707, #680808);
+  }
+
+  .fa-instagram{
+    background-image: linear-gradient(60deg, #eaff00 , #ff8000,#ff0000, #ff00c3);
+    opacity: 1;
+    color: white;
+
+  }
+  .fa-instagram:hover{
+    background-image: linear-gradient(60deg, #eaff00 , #ff8000,#ff0000, #ff00c3);
+    opacity: 0.6;
+    color: white;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .fa{
+      /*For some reason the nav bar has too much padding if .fa set to mre than 0vw*/
+      padding: 0vw 1vw;
+    }
+    .fa.fa-whatsapp {
+      font-size: 4vw;
+      padding: 2vw 1vw;
+      margin: 2px 1px;
+      background-image: linear-gradient(60deg, #010700 , #0a3603,#0f4306, #184510);
+      
+    }
+    .fa.fa-google {
+      font-size: 4vw;
+      padding: 2vw 1vw;
+      margin: 2px 1px;
+      background-image: linear-gradient(60deg, #220101 , #2b0202,#4c0707, #680808);
+      
+    }
+    .fa.fa-instagram{
+      font-size: 4vw;
+      padding: 2vw 1vw;
+      margin: 2px 1px;
+      background-image: linear-gradient(60deg, #eaff00 , #ff8000,#ff0000, #ff00c3);
+      color: white;
+  
+    }
+  }

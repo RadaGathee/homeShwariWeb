@@ -1,0 +1,62 @@
+.welcome-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #010b2f;
+    color: white;
+    background-image: url(fara001.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0vw;
+  }
+
+  .welcome-section h1{
+    font-family: "Shadows Into Light", cursive;;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+  }
+  .welcome-section p{
+    color: rgb(112, 220, 184);
+    font-family: "Shadows Into Light", cursive;;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+
+/*NOT YET*/
+  .welcome-content{
+    padding: 50px;
+    text-align: left;
+    background-color: #021351;
+
+    
+    color: white;
+    background-position: center;
+    background-size: cover;
+
+
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .welcome-content {
+      width: 100%;
+      padding-left: 5vw;
+    }
+  }
+
+
+  .welcome-section{
+    font-size: 5vw;
+
+  }

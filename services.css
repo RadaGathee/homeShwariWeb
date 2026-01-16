@@ -1,0 +1,60 @@
+.services-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #010b2f;
+    color: white;
+    background-image: url(jelly1.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0vw;
+  }
+
+.services-section h1{
+    font-family: "Shadows Into Light", cursive;;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+  .services-content{
+    padding: 50px;
+    text-align: left;
+    /*background-color: #462405;*/
+
+    
+    color: #000000;
+    background-position: center;
+    background-size: cover;
+
+
+    font-family: "Shadows Into Light", cursive;;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    
+    font-size: 1.3vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .services-content {
+      width: 100%;
+      padding-left: 5vw;
+      font-size: 5vw;
+    }
+  }
+
+
+.services-info {
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+  

@@ -1,0 +1,26 @@
+.snippets-content{
+    padding: 50px;
+    text-align: left;
+
+    
+    color: #000000;
+    background-position: center;
+    background-size: cover;
+
+
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0vw;
+    
+    font-size: 1.3vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .snippets-content {
+      width: 100%;
+      padding-left: 5vw;
+      font-size: 5vw;
+    }
+  }
